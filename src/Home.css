@@ -1,0 +1,59 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #1a78c4;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.login-menu {
+    display: flex;
+    gap: 10px;
+}
+
+.login-item {
+    color: white;
+    cursor: pointer;
+}
+
+.footer{
+    background-color: #70b5ec;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    text-align: center;
+}
+.grid-container {
+    display: grid;
+    height: 350px;
+   
+    align-content: center;
+    grid-template-columns: auto auto auto;
+    gap: 10px;
+    background-color: #2196F3;
+    padding: 10px;
+  }
+  
+  .grid-container > div {
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
+  }
